@@ -1,0 +1,51 @@
+.icon-cassete {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transition: 0.3s;
+}
+.icon-cassete:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.icon-cassete--active {
+    filter: contrast(500%);
+}
+.bottom-icons {
+    position: absolute;
+    bottom: -4px;
+    left: 7%;
+}
+.mini-cassete-icon {
+    opacity: 0;
+    bottom: -100px;
+    transition: 0.5s;
+}
+.mini-cassete-icon--active {
+    opacity: 1;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.player-wrapper {
+    position: relative;
+    z-index: 10;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    transition: 0.5s;
+}
+.player-wrapper--active {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+
+.roll-up-button {
+    position: absolute;
+    top: 117px;
+    left: 450px;
+}

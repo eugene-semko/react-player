@@ -1,0 +1,15 @@
+.control-panel {
+    width: 312px;
+    height: 144px;
+    position: absolute;
+    top: 340px;
+    left: 270px;
+}
+.controls {
+    position: absolute;
+    top: 54px;
+    left: 25px;
+}
+.controls--active {
+    filter: contrast(500%);
+}
